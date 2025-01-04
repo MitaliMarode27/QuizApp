@@ -1,240 +1,157 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* General styles */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.mainDiv {
+  padding: 20px;
+}
+.topicName{
+  font-family: 'Times New Roman', Times, serif ;
+}
+
+.link{
+  transition: all 1s ease-in;
+}
+#maindivId1{
+  background-image: url(./ProjectImages/historyMainImg.webp);
+  height: 130vh;
+  background-size: cover;  
+}
+
+  #maindivId2{
+    background-image: url(./ProjectImages/bollywoodMainImg.jpg);
+    height: 130vh;
+     background-size: cover;  
   }
-  
-  .img{
-    background-image: url("https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:quality(100)/2024_1_8_638403208885977231_to-do-list-la-gi-1.jpg");
-    opacity: 0.5;
+  #maindivId3{
+   background-image: url(./ProjectImages/sportMainImg.jpg) ;
+   height: 130vh;
+   background-size: cover;
   }
-  
-  .clickBtn{
-    background-color: bisque;
-    color: brown;
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    font-size: 25px;
-  }
-  .clickBtn:hover {
-    background-color: rgb(178, 178, 146);
-    color: #fff;
-    box-shadow: 2px 2px 4px beige ;
-  }
-  .box{
-    position: absolute;
-    border-radius: 1rem;
-    color: #fff;
-    top: 15rem;
-    right: 15rem;
-    font-weight: lighter;
-    font-size: 3rem;
-    height: 280px;
-    width: 480px;
-    background-color: rgba(20, 20, 20, 0.281);
-    padding-bottom: 3rem;
-    padding-top: 2rem;
-    box-shadow: 4px 4px 8px beige;
-  }
-  
-  a{
-    text-decoration: none;
-    color: brown;
-  }
-  
-  a:hover{
-    color: #fff;
-  }
-  
-  
-  .inputlist{
-    height: 40px;
-    width: 80%;
-    border: none;
-    border-bottom: 1px;
-    outline: none;
-   padding-left: 2rem;
-   background-color: transparent;
-   font-size: 18px;
-  }
-  
-  .addbtn{
-    width: 20%;
-    height: 40px;
-    margin-right: 1rem;
-    font-size: 16px;
-  }
-  
-  .upperBox{
-    margin-top: 3rem;
-    border-radius: 4px;
-    box-shadow: 4px 4px 8px black;
-  }
-  
-  .list{
-    width: 100%;
-    height: 40px;
-    font-size: 18px;
-    box-shadow: 1px 1px 3px black;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 2rem;
-    background-color: rgba(215, 252, 215, 0.686);
-  }
-  
-  .listBox{
-    border-radius: 4px;
-    box-shadow: 4px 4px 8px black;
-    row-gap: 8rem;
-    margin-right: 7rem;
-    background-color: transparent;
-    margin-top: 4rem;
-  }
-  
-  
-  .deleteIcon{
-    color: rgb(142, 228, 142);
-  }
-  
-  .btn2:hover{
-    color: #fff;
-    background-color: crimson;
-  }
-  
-  .removeBtn{
-   text-align: center;
-   font-size: 16px;
-  }
-  
-  .todolistimg{
-    background-image: url("https://i.pinimg.com/originals/ac/54/a1/ac54a128942c750799c2c1fe144d2467.jpg");
-    height: 100vh;
-    width: 100%;
+
+  #maindivId4{
+    background-image: url(./ProjectImages/scienceMainImg.avif);
+    height: 140vh;
     background-size: cover;
-  }
+   }
 
-  
-  .para{
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   color: rgb(70, 61, 45);
-   font-weight: 10px;
-  }
+   #maindivId5{
+    background-image: url(./ProjectImages/socialmediaMainImg.avif);
+    height: 140vh;
+    background-size: cover;
+   }
 
-  .para1{
-    position: absolute;
-    top: 3rem;
-    left: 16rem;
-    font-size: 2rem;
-  }
+   #maindivId6{
+    background-image: url(./ProjectImages/traditionMainImg.avif);
+    height: 140vh;
+    background-size: cover;
+   }
 
-  .para2{
-    position: absolute;
-    top: 8rem;
-    left: 30rem;
-    font-size: 2rem;
-  }
-
-
-
-
-  /* TodoList.css */
-.todolist-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #f8f9fa;
-  padding: 1rem;
-  border-radius: 6px;
+ 
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+  position: relative;
+  top: 0;
 }
 
-
-.highlight {
-  color: #ffffff;
-}
-
-.inputBox{
-  background-color: #f8f9fa;
-}
-.highlight-special {
-  color: rgba(146, 209, 68, 0.808);
-  text-shadow: 2px 2px 3px rgb(36, 35, 35);
-  font-size: 3rem;
-}
-
-.bannerImg{
-  background-image: url("https://plus.unsplash.com/premium_photo-1683309563562-aa3cfde9ed10?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dG9kbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D");
-  background-size: cover;
-  filter: blur(5px);
-  min-height: 70vh;
-}
-
-.banner{
-  height: 70%;
-  width: 70%;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  z-index: 5;
-}
-ul.list-group {
-  max-height: 300px;
-  overflow-y: auto;
-  background-color: aliceblue;
-  padding: 1rem;
-  border-radius: 5px;
-}
-
-input[type="text"] {
+.question-box {
+  margin-bottom: 20px;
   padding: 10px;
-  border-radius: 4px;
-  border: none;
-  overflow: noneo;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgb(44, 44, 44);
 }
 
+.question {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.question button {
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.answer {
+  padding: 10px;
+  background-color: #e9e9e9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 2rem;
+  text-align: center;
+  column-gap: 2rem;
+}
+
+.answer img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Responsive styles */
 @media (max-width: 768px) {
-  .todolist-container {
-    padding: 1rem;
+  .container {
+    max-width: 100%;
   }
 
-  .highlight-special {
-    font-size: 1.5rem;
+  .question {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .banner{
-   
-    position: absolute;
-    top: 50%;
-   
-  }
-  
-}
-
-@media (max-width: 576px) {
-  ul.list-group {
-    max-height: 200px;
+  .maindiv {
+    padding: 10px;
+    height: 180vh;
   }
 
-  .banner{
-   
-    position: absolute;
-    top: 50%;
-   
-  }
 
-  .btn {
-    font-size: 0.9rem;
+  .question button {
+    margin-bottom: 10px;
   }
 }
 
-@media (min-width:800px) {
-  .banner{   
-    position: absolute;
-    top: 50%;  
+@media (max-width: 480px) {
+  .maindiv {
+    padding: 10px;
+    height: 180vh;
   }
 
+  .question {
+    padding: 8px;
+  }
+
+  .answer {
+    padding: 8px;
+  }
 }
 
+
+.listImg{
+  height: 25vh;
+  width: 30%;
+  object-fit: cover;
+}
+
+.eye{
+  color: black;
+ width: 3rem;
+}
